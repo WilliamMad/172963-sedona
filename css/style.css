@@ -1,0 +1,15 @@
+body {
+    font-size:14pt; 
+    line-height:26pt;
+    color="#333333";
+    font-weight: normal;
+    font-family: PT Sans;
+}
+
+h2 {
+    font-size:21pt; 
+    line-height:26pt;
+    color:"#333333";
+    font-weight: bold;
+    font-family:PT Sans Bold;
+}

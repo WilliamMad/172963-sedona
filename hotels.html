@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link href="css/style.css" rel="stylesheet">
     <title>Результаты поиска гостиниц в Седоне</title>
     <meta charset="utf-8">
 </head>
@@ -17,7 +18,7 @@
                     <a href="#">Фото и видео</a>
                 </li>
                 <li>
-                    <a href="#"><img src="#" alt="#">
+                    <a href="#"><img src="img/Layer8.png" alt="#">
                     </a>
                 </li>
                 <li>
@@ -30,9 +31,9 @@
         </nav>
     </header>
     <section class="hotel-search">
-        <div class="inf">
-            <h2>Инфраструктура:</h2>
-            <form class="filters" action="#" method="#">
+        <form class="filters" action="#" method="#">
+            <div class="inf">
+                <h2>Инфраструктура:</h2>
                 <ul class="filter-infrastructure">
                     <li>
                         <input type="checkbox" name="pooloption" id="option-pool" checked>
@@ -47,11 +48,9 @@
                         <label class="option-checkbox" for="option-wifi">Wi-Fi</label>
                     </li>
                 </ul>
-            </form>
-        </div>
-        <div class="type">
-            <h2>Тип жилья:</h2>
-            <form class="filters" action="#" method="#">
+            </div>
+            <div class="type">
+                <h2>Тип жилья:</h2>
                 <ul class="filter-type">
                     <li>
                         <input type="checkbox" name="innoption" id="option-inn" checked>
@@ -67,11 +66,9 @@
                     </li>
 
                 </ul>
-            </form>
-        </div>
-        <div class="filter-price">
-            <h2>Стоимость в сутки(Р):</h2>
-            <form action="form.php" method="GET">
+            </div>
+            <div class="filter-price">
+                <h2>Стоимость в сутки(Р):</h2>
                 <div class="range-filter">
                     <div class="range-controls">
                         <div class="scale">
@@ -89,15 +86,15 @@
                         </label>
                     </div>
                 </div>
-            </form>
-        </div>
+            </div>
+        </form>
     </section>
     <section class="pref">
         <div class="found">
             <h1>Найдено: 3</h1>
         </div>
         <div class="sort">
-            <p>Сортировка:</p>
+            <span>Сортировка:</span>
             <ul class="s-elements">
                 <li class="element-active">По цене</li>
                 <li class="element">По типу</li>
@@ -111,62 +108,62 @@
     </section>
     <article class="hotel">
         <div class="hpicture">
-            <img src="#" alt="#">
+            <img src="img/Layer%2021.png" alt="#">
         </div>
         <div class="desk">
             <h1>Amara Resort &amp; Spa</h1>
             <div class="about">
-                <p>Гостиница</p>
+                <span>Гостиница</span>
                 <button class="more" type="button">Подробнее</button>
             </div>
             <div class="about">
-                <p>От 3500 Р.</p>
+                <span>От 3500 Р.</span>
                 <button class="book" type="button">Забронировать</button>
             </div>
         </div>
         <div class="rating">
-            <img src="#" alt="#">
-            <p>Рейтинг: 8,5</p>
+            <img src="img/4stars%20.png" alt="#">
+            <span>Рейтинг: 8,5</span>
         </div>
     </article>
     <article class="hotel">
         <div class="hpicture">
-            <img src="#" alt="#">
+            <img src="img/Layer%2089%20copy.png" alt="#">
         </div>
         <div class="desk">
             <h1>Desert Quail Inn</h1>
             <div class="about">
-                <p>Мотель</p>
+                <span>Мотель</span>
                 <button class="more" type="button">Подробнее</button>
             </div>
             <div class="about">
-                <p>От 2000 Р.</p>
+                <span>От 2000 Р.</span>
                 <button class="book" type="button">Забронировать</button>
             </div>
         </div>
         <div class="rating">
-            <img src="#" alt="#">
-            <p>Рейтинг: 8,9</p>
+            <img src="img/2stars.png" alt="#">
+            <span>Рейтинг: 8,9</span>
         </div>
     </article>
     <article class="hotel">
         <div class="hpicture">
-            <img src="#" alt="#">
+            <img src="img/Layer%2022.png" alt="#">
         </div>
         <div class="desk">
             <h1>Villas At Poco Diablo</h1>
             <div class="about">
-                <p>Апартаменты</p>
+                <span>Апартаменты</span>
                 <button class="more" type="button">Подробнее</button>
             </div>
             <div class="about">
-                <p>От 4000 Р.</p>
+                <span>От 4000 Р.</span>
                 <button class="book" type="button">Забронировать</button>
             </div>
         </div>
         <div class="rating">
-            <img src="#" alt="#">
-            <p>Рейтинг: 9,2</p>
+            <img src="img/3stars.png" alt="#">
+            <span>Рейтинг: 9,2</span>
         </div>
     </article>
     <footer class="info">
@@ -174,12 +171,15 @@
             <a href="#">#Visitsedona</a>
         </div>
         <div class="last-block">
-            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+            <a class="social-btn social-btn-twitter" href="#"><img src="img/t.png">
+            </a>
+            <a class="social-btn social-btn-fb" href="#"><img src="img/f.png">
+            </a>
+            <a class="social-btn social-btn-youtube" href="#"><img src="img/y.png">
+            </a>
         </div>
         <div class="last-block">
-            <a href="https://htmlacademy.ru/"><img src="#" alt="#">
+            <a href="https://htmlacademy.ru/"><img src="img/%D0%A1%D0%BB%D0%BE%D0%B9%203.png" alt="#">
             </a>
         </div>
     </footer>
