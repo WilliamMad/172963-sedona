@@ -11,28 +11,25 @@
 <body>
     <header class="main-header">
         <nav class="main-navigation">
-            <ul>
+            <ul class="navigation">
                 <li>
                     <a href="#">Информация</a>
-                </li>
-                <li>
+                </li><!----><li>
                     <a href="#">Фото и видео</a>
-                </li>
-                <li>
-                    <a href="#"><img src="img/logo.png" alt="#">
-                    </a>
-                </li>
-                <li>
+                </li><!----><li>
+                    <a href="index.html"><img src="img/logo.png" alt="#"></a>
+                </li><!----><li>
                     <a href="#">Карта штата</a>
-                </li>
-                <li>
-                    <a href="#">Гостиница</a>
+                </li><!----><li>
+                    <a href="hotels.html">Гостиница</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="container">
-        <section class="main-img"><img src="#" alt="#">
+    <main class="container clearfix">
+        <section class="main-img">
+            <img class="textimg" src="img/maintext.png" alt="#">
+            <img class="botimg" src="img/mainbottom.png" alt="#">
         </section>
         <section class="descr-first">
             <h2>Седона - небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
@@ -55,7 +52,7 @@
                 <p>Рекомендуем пожить в настоящем
                     <br>мотеле, все как в кино!</p>
             </div>
-            <div class="small-img"><img src="img/burger.png" alt="#">
+            <div class="small-imgs"><img src="img/burger.png" alt="#">
                 <h2>Еда</h2>
                 <p>Всегда заказывайте фирменный бургер,
                     <br>вы не разочаруетесь!</p>
@@ -102,8 +99,8 @@
             <p>Укажите предполагаемые даты поездки,
                 <br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
             <a class="fbutton" href="#">Поиск гостиниц в Седоне</a>
-            <div class="searcher-form">
-                <form class="index-form">
+            <div class="searcher-form" style="display:none;">
+                <form class="index-form" action="#">
                     <label for="dtarrival">Дата заезда:</label>
                     <input class="date-arrival" id="dtarrival" type="date" placeholder="24 Апреля 2016">
                     <label for="dtdep">Дата выезда:</label>
@@ -117,18 +114,19 @@
             </div>
         </section>
         <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547373.9655721275!2d-112.08789631924752!3d34.83748638035086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1454252427901" frameborder="0" allowfullscreen></iframe>            
         </section>
-    </main>
-        <footer class="info">
+    </main>  
+    <footer class="info">
             <div class="last-block htag">
                 <a href="#">#Visitsedona</a>
             </div>
             <div class="last-block">
-                <a class="social-btn social-btn-twitter" href="#"><li>Twitter</li>
+                <a class="social-btn social-btn-twitter" href="#">Twitter
                 </a>
-                <a class="social-btn social-btn-fb" href="#"><li>Facebook</li>
+                <a class="social-btn social-btn-fb" href="#">Facebook
                 </a>
-                <a class="social-btn social-btn-youtube" href="#"><li>Youtube</li>
+                <a class="social-btn social-btn-youtube" href="#">Youtube
                 </a>
             </div>
             <div class="last-block">

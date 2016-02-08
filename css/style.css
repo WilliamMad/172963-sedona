@@ -1,20 +1,36 @@
+*{
+    outline: 1px solid grey;
+}
+
 body {
     font-size:14pt; 
     line-height:26pt;
     color: #333333;
     font-weight: normal;
     font-family: PT Sans;
-    text-align: center;
 }
 
 h2 {
-    font-size:21pt; 
-    line-height:26pt;
+    font-size:16pt; 
+    line-height:21pt;
     color: #333333;
     font-weight: bold;
     font-family:PT Sans Bold;
     text-align: center;
 }
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+header, main, footer{
+    margin: 0 auto;
+}
+
 .clearfix::after {
   content: "";
 
@@ -24,24 +40,37 @@ h2 {
 .container {
     width: 1200px;
 }
-.main-navigation {
+
+.main-navigation, header {
   width: 1200px;
 }
 .main-img {
-    margin-bottom: 60px;
+    width: 1200px;
+    height: 509px;
+    background-image: url(../img/mainphoto.png);
+}
+.textimg {
+    margin-left:371px;
+   margin-top:77px;
+}
+.botimg {
+  padding-top: 12px; 
 }
 .descr-first {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 56px;
+    text-align: center;
 }
 .descr-second {
     margin-bottom: 60px;
+    text-align: center;
 }
 .lil-descr {
     float: left;
     width: 400px;
     height: 256px;
+    text-align: center;
     margin-bottom: 60px;
     background-color:#81b3d2;
 }
@@ -54,45 +83,203 @@ h2 {
     float: left;
     width: 1200px;
     margin-bottom: 70px;
+    text-align: center;
 }
 .small-img {
     float: left;
     width: 400px;
+    text-align: center;
 }
-.small-img:last-child {
-  float: right;
+.small-img:first-child {
+    padding-top: 3px;
+    float: left;
+    width: 400px;
+    text-align: center;
 }
+.small-imgs {
+    padding-top: 5px;
+    float: left;
+    width: 400px;
+    text-align: center;
+}
+
 
 .descr-fifth {
     width: 1200px;
     margin-bottom: 60px;
+    text-align: center;
 }
 .middle-descr {
     float:left; 
     width: 400px;
     background-color: #eeeeee;
+    text-align: center;
 }
 .lil-descrs {
     float: left;
     width: 400px;
     height: 256px;
     background-color:#81b3d2;
+    text-align: center;
 }
 .searcher-form {
     margin-left: 312px;
     margin-right: 312px;
     width: 576px;
     height: 395px;
+    text-align: center;
+}
+.searcher {
+    text-align: center;
 }
 .map {
     margin-bottom: 0;
 }
 footer {
-    width: 1200;
-    height: 120;
+    width: 1200px;
+    height: 120px;
+    text-align: center;
 }
 .last-block {
     float: left;
     width: 400px;
     height: 120px;
+    text-align: center;
 }
+
+.map{
+    height: 595px;
+    display:block;
+    background: url(../img/map.png);
+}
+
+iframe{
+    width: 1200px;
+    height: 595px;
+    border: 0;
+}
+
+.main-header {
+   text-align: center;   
+}
+.navigation li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+.hotel-search {
+    width: 1056px;
+    height: 217px;
+    margin-left: 73px;
+}
+.inf {
+    float: left;
+    width: 241px;
+}
+.type {
+    float: left;
+    width: 288px;
+}
+
+.filter-price {
+    float: left;
+    width: 527px;
+}
+
+
+.pref {
+    margin-left: 73px;
+    height: 87px;
+    width: 1057px;   
+}
+.found {
+    float: left;
+    width: 163px; 
+}
+.sort {
+    float: left;
+    width: 856px;
+    height: 87px;
+}
+.updown {
+    float: left;
+    width: 38px;
+}
+
+.element {
+    float: left;
+    width: 100px;
+    margin-top: 20px;
+    font-size:12pt; 
+    line-height:18pt;    
+}
+
+.s-elements {
+    width: 500px; 
+}
+.hotel {
+    margin-left: 73px;
+    height: 151px;
+    width: 1057px;
+}
+.hpicture {
+    float: left;
+    width: 166px;
+}
+.desk {
+    float: left;
+    width: 781px;
+    height: 151px;
+}
+.abouth {
+    float: left;
+    width: 110px;
+    height: 61px;
+}
+.aboutb {
+    float: left;
+    width: 143px;
+    height: 61px;
+}
+.rating {
+    float: left;
+    width: 100px;
+    padding-top: 94px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

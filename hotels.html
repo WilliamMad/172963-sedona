@@ -11,26 +11,22 @@
 <body>
     <header class="main-header">
         <nav class="main-navigation">
-            <ul>
-                <li>
+            <ul class="navigation">
+               <li>
                     <a href="#">Информация</a>
-                </li>
-                <li>
+                </li><!----><li>
                     <a href="#">Фото и видео</a>
-                </li>
-                <li>
-                    <a href="#"><img src="img/logo.png" alt="#">
-                    </a>
-                </li>
-                <li>
+                </li><!----><li>
+                    <a href="index.html"><img src="img/logo.png" alt="#"></a>
+                </li><!----><li>
                     <a href="#">Карта штата</a>
-                </li>
-                <li>
-                    <a href="#">Гостиница</a>
+                </li><!----><li>
+                    <a href="hotels.html">Гостиница</a>
                 </li>
             </ul>
         </nav>
     </header>
+        <main class="container">
     <section class="hotel-search">
         <form class="filters" action="#" method="#">
             <div class="inf">
@@ -71,13 +67,6 @@
             <div class="filter-price">
                 <h2>Стоимость в сутки(Р):</h2>
                 <div class="range-filter">
-                    <div class="range-controls">
-                        <div class="scale">
-                            <div class="bar" style="margin-left: 20%; width: 30%"></div>
-                        </div>
-                        <div class="toggle toggle-min"></div>
-                        <div class="toggle toggle-max"></div>
-                    </div>
                     <div class="price-controls">
                         <label class="min-price">от
                             <input name="min-price" type="text" value="0">
@@ -86,25 +75,33 @@
                             <input name="max-price" type="text" value="3000">
                         </label>
                     </div>
+                    <div class="range-controls">
+                        <div class="scale">
+                            <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                        </div>
+                        <div class="toggle toggle-min"></div>
+                        <div class="toggle toggle-max"></div>
+                    </div>
+                    <button>Показать</button>
                 </div>
             </div>
         </form>
     </section>
     <section class="pref">
         <div class="found">
-            <h1>Найдено: 3</h1>
+            <h2>Найдено: 3</h2>
         </div>
         <div class="sort">
-            <span>Сортировка:</span>
+            <span class="element">Сортировка:</span>
             <ul class="s-elements">
-                <li class="element-active">По цене</li>
+                <li class="element active">По цене</li>
                 <li class="element">По типу</li>
                 <li class="element">По рейтингу</li>
             </ul>
         </div>
         <div class="updown">
-            <button class="sbtn-up" type="button"></button>
-            <button class="sbtn-down" type="button"></button>
+            <a class="sbtn-up"></a>
+            <a class="sbtn-down"></a>
         </div>
     </section>
     <article class="hotel">
@@ -113,17 +110,17 @@
         </div>
         <div class="desk">
             <h1>Amara Resort &amp; Spa</h1>
-            <div class="about">
+            <div class="abouth">
                 <span>Гостиница</span>
-                <button class="more" type="button">Подробнее</button>
+                <a class="more">Подробнее</a>
             </div>
-            <div class="about">
+            <div class="aboutb">
                 <span>От 3500 Р.</span>
-                <button class="book" type="button">Забронировать</button>
+                <a class="book">Забронировать</a>
             </div>
         </div>
         <div class="rating">
-            <li></li>
+            <i></i>
             <span>Рейтинг: 8,5</span>
         </div>
     </article>
@@ -133,17 +130,17 @@
         </div>
         <div class="desk">
             <h1>Desert Quail Inn</h1>
-            <div class="about">
+            <div class="abouth">
                 <span>Мотель</span>
-                <button class="more" type="button">Подробнее</button>
+                <a class="more">Подробнее</a>
             </div>
-            <div class="about">
+            <div class="aboutb">
                 <span>От 2000 Р.</span>
-                <button class="book" type="button">Забронировать</button>
+                <a class="book">Забронировать</a>
             </div>
         </div>
         <div class="rating">
-            <li></li>
+            <i></i>
             <span>Рейтинг: 8,9</span>
         </div>
     </article>
@@ -153,30 +150,31 @@
         </div>
         <div class="desk">
             <h1>Villas At Poco Diablo</h1>
-            <div class="about">
+            <div class="abouth">
                 <span>Апартаменты</span>
-                <button class="more" type="button">Подробнее</button>
+                <a class="more">Подробнее</a>
             </div>
-            <div class="about">
+            <div class="aboutb">
                 <span>От 4000 Р.</span>
-                <button class="book" type="button">Забронировать</button>
+                <a class="book">Забронировать</a>
             </div>
         </div>
         <div class="rating">
-            <li></li>
+            <i></i>
             <span>Рейтинг: 9,2</span>
         </div>
     </article>
+    </main>
     <footer class="info">
         <div class="last-block htag">
             <a href="#">#Visitsedona</a>
         </div>
         <div class="last-block">
-                <a class="social-btn social-btn-twitter" href="#"><li>Twitter</li>
+                <a class="social-btn social-btn-twitter" href="#">Twitter
                 </a>
-                <a class="social-btn social-btn-fb" href="#"><li>Facebook</li>
+                <a class="social-btn social-btn-fb" href="#">Facebook
                 </a>
-                <a class="social-btn social-btn-youtube" href="#"><li>Youtube</li>
+                <a class="social-btn social-btn-youtube" href="#">Youtube
                 </a>
             </div>
             <div class="last-block">
