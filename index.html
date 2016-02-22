@@ -3,25 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Результаты поиска гостиниц в Седоне</title>
+    <title>Главная страница</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <div class="shadow">
     <header class="main-header">
         <nav class="main-navigation">
             <ul class="navigation">
                 <li>
-                    <a href="#">Информация</a>
+                    <a href="#" class="itext">Информация</a>
                 </li><!----><li>
-                    <a href="#">Фото и видео</a>
+                    <a href="#" class="itext">Фото и видео</a>
                 </li><!----><li>
                     <a href="index.html"><img src="img/logo.png" alt="#"></a>
                 </li><!----><li>
-                    <a href="#">Карта штата</a>
+                    <a href="#" class="itext">Карта штата</a>
                 </li><!----><li>
-                    <a href="hotels.html">Гостиница</a>
+                    <a href="hotels.html" class="itext">Гостиница</a>
                 </li>
             </ul>
         </nav>
@@ -32,43 +34,43 @@
             <img class="botimg" src="img/mainbottom.png" alt="#">
         </section>
         <section class="descr-first">
-            <h2>Седона - небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
+            <h3>Седона - небольшой городок в Аризоне,<br> заслуживающий большего!</h3>
             <p>Рассмотрим 5 причин, по которым Седона круче чем Гранд Каньон!</p>
         </section>
         <section class="descr-second">
             <div class="lil-descr">
-                <h2>Настоящий<br>Городок</h2>
+                <h3>Настоящий<br>Городок</h3>
                 <span>&ndash; &#8470;1 &ndash;</span>
                 <p>Седона не атракцион для туристов,
                     <br> там течёт своя жизнь</p>
             </div>
             <div class="middle-img">
-                <img src="img/town.png" alt="#">
+                <img src="img/town.png" width="800px" height="256px" alt="#">
             </div>
         </section>
         <section class="descr-third clearfix">
             <div class="small-img"><img src="img/home.png" alt="#">
-                <h2>Жилье</h2>
+                <h3>Жилье</h3>
                 <p>Рекомендуем пожить в настоящем
                     <br>мотеле, все как в кино!</p>
             </div>
             <div class="small-imgs"><img src="img/burger.png" alt="#">
-                <h2>Еда</h2>
+                <h3>Еда</h3>
                 <p>Всегда заказывайте фирменный бургер,
                     <br>вы не разочаруетесь!</p>
             </div>
             <div class="small-img"><img src="img/present.png" alt="#">
-                <h2>Сувениры</h2>
+                <h3>Сувениры</h3>
                 <p>Не только китайского,
                     <br>но и местного производства!</p>
             </div>
         </section>
         <section class="descr-fourth clearfix">
             <div class="middle-img">
-                <img src="img/gc.png" alt="#">
+                <img src="img/gc.png" width="800px" height="256px" alt="#">
             </div>
             <div class="lil-descrs">
-                <h2>Там есть<br>мост дьявола</h2>
+                <h3>Там есть<br>мост дьявола</h3>
                 <span>&ndash; &#8470;2 &ndash;</span>
                 <p>Да, по нему можно пройти!
                     <br>Если конечно вы осмелитесь</p>
@@ -76,63 +78,112 @@
         </section>
         <section class="descr-fifth clearfix">
             <div class="middle-descr">
-                <h2>Небольшая<br>площадь</h2>
+                <h3>Небольшая<br>площадь</h3>
                 <span>&ndash; &#8470;3 &ndash;</span>
                 <p>Все достопримечательности
                     <br>находятся очень близко</p>
             </div>
             <div class="middle-descr">
-                <h2>Красивая<br>дорога</h2>
+                <h3>Красивая<br>дорога</h3>
                 <span>&ndash; &#8470;4 &ndash;</span>
                 <p>Ехать в Седону и Лас-Вегаса совсем
                     <br>не скучно!</p>
             </div>
             <div class="middle-descr">
-                <h2>Мало<br>туристов</h2>
+                <h3>Мало<br>туристов</h3>
                 <span>&ndash; &#8470;5 &ndash;</span>
                 <p>Большинство едет в гранд каньон и
                     <br>толпится там</p>
             </div>
         </section>
-        <section class="searcher">
-            <h2 class="stitle">Заинтересовались?</h2>
-            <p>Укажите предполагаемые даты поездки,
-                <br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
-            <a class="fbutton" href="#">Поиск гостиниц в Седоне</a>
-            <div class="searcher-form" style="display:none;">
-                <form class="index-form" action="#">
-                    <label for="dtarrival">Дата заезда:</label>
-                    <input class="date-arrival" id="dtarrival" type="date" placeholder="24 Апреля 2016">
-                    <label for="dtdep">Дата выезда:</label>
-                    <input class="date-dep" id="dtdep" type="date" placeholder="4 Июля 2016">
-                    <label for="adult">Взрослые:</label>
-                    <input class="adult" id="adult" type="text" placeholder="2">
-                    <label for="child">Дети:</label>
-                    <input id="child" type="text" placeholder="0">
-                    <input type="submit" value="Найти">
-                </form>
+            <div class="search-form-container">
+                <div class="interested">
+          <h3>Заинтересовались?</h3>
+          <p>
+            Укажите предполагаемые даты поездки,<br> 
+            и мы покажем вам лучшие предложения гостиниц в Седоне
+          </p>
+        </div>
+          <a class="search-btn" href="form.html">Поиск гостиницы в Седоне</a>
+          <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+            <div class="form-line clearfix">
+              <label for="day-in">Дата заезда:</label>
+              <input class="date field" type="text" id="day-in" name="in" placeholder="14 апреля 2016">
+              <div class="icon-calendar"></div>
             </div>
+            <div class="form-line clearfix">
+              <label for="day-out">Дата выезда:</label>
+              <input class="date field" type="text" id="day-out" name="out" placeholder="20 июля 2016">
+              <div class="icon-calendar"></div>
+            </div>
+            <div class="form-line clearfix">
+              <div class="half-width">
+                <label for="adult">Взрослые:</label>
+                <div class="unit-container">
+                  <button class="btn plus-btn" type="button">
+                    <i class="icon-plus"></i>
+                  </button>
+                  <input class="unit field" type="text" name="adults" id="adult" step="1">
+                  <button class="btn minus-btn" type="button">
+                    <i class="icon-minus"></i>
+                  </button>
+                </div>
+              </div><!--
+           --><div class="half-width">
+                <label for="kid">Дети:</label>
+                <div class="unit-container clearfix">
+                  <button class="btn plus-btn" type="button">
+                    <i class="icon-plus"></i>
+                  </button>
+                  <input class="unit field" type="text" name="kids" id="kid" step="1">
+                  <button class="btn minus-btn" type="button">
+                    <i class="icon-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button class="find-btn" type="button">НАЙТИ</button>
+          </form>
+        </div>
         </section>
         <section class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547373.9655721275!2d-112.08789631924752!3d34.83748638035086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1454252427901" frameborder="0" allowfullscreen></iframe>            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547373.9655721275!2d-112.08789631924752!3d34.83748638035086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1454252427901" allowfullscreen></iframe>            
         </section>
     </main>  
-    <footer class="info">
+    <footer class="info footer-home">
             <div class="last-block htag">
-                <a href="#">#Visitsedona</a>
+                <a class="htag" href="#">#Visitsedona</a>
             </div>
             <div class="last-block">
-                <a class="social-btn social-btn-twitter" href="#">Twitter
-                </a>
-                <a class="social-btn social-btn-fb" href="#">Facebook
-                </a>
-                <a class="social-btn social-btn-youtube" href="#">Youtube
+                <a class="social-btn social-btn-twitter" href="#"><i class="icon-twitter"></i>
+                </a><!--
+                --><a class="social-btn social-btn-fb" href="#"><i class="icon-facebook"></i>
+                </a><!--
+                --><a class="social-btn social-btn-youtube" href="#"><i class="icon-youtube"></i>
                 </a>
             </div>
-            <div class="last-block">
-                <a href="https://htmlacademy.ru/"><img src="img/academylogo.png" alt="#">
+            <div class="last-block developer">
+                <span class="webb">Website by</span><!--
+                --><a href="https://htmlacademy.ru/">
+                    <div class="academy"></div>
                 </a>
             </div>
         </footer>
+    <script>
+      var link = document.querySelector(".search-btn");
+      var searchForm = document.querySelector(".search-form");
+      var date = searchForm.querySelector("#day-in");
+
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        if (searchForm.classList.contains("search-form-visible")) {
+          searchForm.classList.remove("search-form-visible");
+        } else {
+          searchForm.classList.add("search-form-visible");
+        };
+        date.focus();
+      });
+    </script>
+    </div>
 </body>
 </html>
